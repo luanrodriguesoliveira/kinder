@@ -3,17 +3,12 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
+    marginHorizontal: 35,
   },
-  headerImage: {
-    marginTop: 100,
-  },
-  text: {
-    marginTop: 50,
+  textInput: {
+    marginBottom: 20,
     fontFamily: 'Poppins_400Regular',
-    fontSize: 25,
-    textAlign: 'center',
   },
   button: {
     margin: 10,
@@ -25,8 +20,5 @@ export const styles = StyleSheet.create({
   },
   buttonBox: {
     marginTop: 70,
-  },
-  textSpan: {
-    color: '#DF4D60',
   },
 });
