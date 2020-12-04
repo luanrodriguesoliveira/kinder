@@ -27,10 +27,6 @@ export const styles = StyleSheet.create({
     marginTop: 70,
   },
   textSpan: {
-    marginTop: 50,
-    fontFamily: 'Poppins_400Regular',
-    fontSize: 25,
-    textAlign: 'center',
     color: '#DF4D60',
   },
 });
